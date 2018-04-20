@@ -16,6 +16,7 @@ Course_selection_system  #程序主目录
 |-- db  #数据存放目录
 |   |-- database.json  #存放数据文件
 |-- lib  #调用工具库
+|   |-- get_list.py  #获取数据对象接口
 |   |-- init_db_dir.py  #初始化数据目录及数据结构
 |   |-- logger.py  #日志调用接口
 |   |-- __pycache__
