@@ -1,0 +1,160 @@
+{
+    "classes": {
+        "python_1班": {
+            "belong_to_course": "python自动化运维开发",
+            "belong_to_teacher": "陈建文",
+            "classes_actives": "无",
+            "classes_max_number": 40,
+            "classes_name": "python_1班",
+            "classing_status": false
+        }
+    },
+    "course": {
+        "go语言开发": {
+            "belong_to_school": "北京大学",
+            "course_desc": "python自动化运维开发-描述信息",
+            "course_name": "go语言开发",
+            "course_price": 7000,
+            "study_cycle": "240天"
+        },
+        "linux云计算": {
+            "belong_to_school": "北京大学",
+            "course_desc": "python自动化运维开发-描述信息",
+            "course_name": "linux云计算",
+            "course_price": 7000,
+            "study_cycle": "240天"
+        },
+        "python自动化运维开发": {
+            "belong_to_school": "北京大学",
+            "course_desc": "python自动化运维开发-描述信息",
+            "course_name": "python自动化运维开发",
+            "course_price": 7000,
+            "study_cycle": "240天"
+        },
+        "python英语": {
+            "belong_to_school": "linux学院",
+            "course_desc": "python英语针对常用语法英文教学",
+            "course_name": "python英语",
+            "course_price": "8000",
+            "study_cycle": "120"
+        }
+    },
+    "school": {
+        "linux学院": {
+            "address": "北京",
+            "desc": "linux学院专注linux云计算教育",
+            "name": "linux学院"
+        },
+        "北京大学": {
+            "address": "北京",
+            "desc": "描述信息",
+            "name": "北京大学"
+        }
+    },
+    "student": {
+        "1071179133": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "北京大学",
+            "student_ID": "1071179133",
+            "student_age": 23,
+            "student_grade": 100,
+            "student_money": 6000,
+            "student_name": "陈建文",
+            "student_sex": "男",
+            "tuition_status": true
+        },
+        "1071179134": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "北京大学",
+            "student_ID": "1071179134",
+            "student_age": 23,
+            "student_grade": 0,
+            "student_money": 13000,
+            "student_name": "陈建文1",
+            "student_sex": "男",
+            "tuition_status": true
+        },
+        "1071179135": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "北京大学",
+            "student_ID": "1071179135",
+            "student_age": 23,
+            "student_grade": 0,
+            "student_money": 13000,
+            "student_name": "陈建文2",
+            "student_sex": "男",
+            "tuition_status": true
+        },
+        "1071179136": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "北京大学",
+            "student_ID": "1071179136",
+            "student_age": 23,
+            "student_grade": 0,
+            "student_money": 13000,
+            "student_name": "陈建文3",
+            "student_sex": "男",
+            "tuition_status": true
+        },
+        "1071179137": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "北京大学",
+            "student_ID": "1071179137",
+            "student_age": 23,
+            "student_grade": 0,
+            "student_money": 13000,
+            "student_name": "陈建文7",
+            "student_sex": "男",
+            "tuition_status": true
+        },
+        "1071179138": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "北京大学",
+            "student_ID": "1071179138",
+            "student_age": 23,
+            "student_grade": 0,
+            "student_money": 13000,
+            "student_name": "陈建文8",
+            "student_sex": "男",
+            "tuition_status": true
+        },
+        "18826270172": {
+            "belong_to_classes": "python_1班",
+            "belong_to_course": "python自动化运维开发",
+            "belong_to_school": "北京大学",
+            "student_ID": "18826270172",
+            "student_age": "23",
+            "student_grade": "99.99",
+            "student_money": 1986000,
+            "student_name": "陈建文0172",
+            "student_sex": "男",
+            "tuition_status": true
+        }
+    },
+    "teacher": {
+        "谢美君": {
+            "belong_to_school": "北京大学",
+            "teacher_ID": "440921199109245137",
+            "teacher_age": 23,
+            "teacher_major": "python",
+            "teacher_name": "谢美君",
+            "teacher_salary": 10000,
+            "teacher_sex": "男"
+        },
+        "陈建文": {
+            "belong_to_school": "北京大学",
+            "teacher_ID": "440921199109245137",
+            "teacher_age": 23,
+            "teacher_major": "python",
+            "teacher_name": "陈建文",
+            "teacher_salary": 10000,
+            "teacher_sex": "男"
+        }
+    }
+}

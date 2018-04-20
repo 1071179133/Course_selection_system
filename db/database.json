@@ -1,0 +1,147 @@
+{
+    "classes": {
+        "go语言开发_1班": {
+            "belong_to_course": "go语言开发",
+            "belong_to_teacher": "讲师3号",
+            "classes_actives": "暂无",
+            "classes_max_number": "40",
+            "classes_name": "go语言开发_1班",
+            "classing_status": false
+        },
+        "linux云计算_1班": {
+            "belong_to_course": "linux云计算",
+            "belong_to_teacher": "讲师1号",
+            "classes_actives": "暂无",
+            "classes_max_number": "40",
+            "classes_name": "linux云计算_1班",
+            "classing_status": false
+        },
+        "python自动化开发_1班": {
+            "belong_to_course": "python自动化开发",
+            "belong_to_teacher": "讲师2号",
+            "classes_actives": "暂无",
+            "classes_max_number": "40",
+            "classes_name": "python自动化开发_1班",
+            "classing_status": false
+        }
+    },
+    "course": {
+        "go语言开发": {
+            "belong_to_school": "撸码学院上海校区",
+            "course_desc": "go语言开发xxxxxxxxxxxxxxxxxxx",
+            "course_name": "go语言开发",
+            "course_price": "8000",
+            "study_cycle": "120"
+        },
+        "linux云计算": {
+            "belong_to_school": "撸码学院北京校区",
+            "course_desc": "linux云计算xxxxxxxxxxxxxxxxxxx",
+            "course_name": "linux云计算",
+            "course_price": "8000",
+            "study_cycle": "120"
+        },
+        "python自动化开发": {
+            "belong_to_school": "撸码学院北京校区",
+            "course_desc": "python自动化开发xxxxxxxxxxxxxxxxxxx",
+            "course_name": "python自动化开发",
+            "course_price": "8000",
+            "study_cycle": "120"
+        },
+        "无厘头英语": {
+            "belong_to_school": "撸码学院深圳校区",
+            "course_desc": "无厘头英语xxxxxxxxxxxxxxxxxxx",
+            "course_name": "无厘头英语",
+            "course_price": "20000",
+            "study_cycle": "240"
+        }
+    },
+    "school": {
+        "撸码学院上海校区": {
+            "address": "上海",
+            "desc": "撸码学院北京校区专注于go语言教育",
+            "name": "撸码学院上海校区"
+        },
+        "撸码学院北京校区": {
+            "address": "北京",
+            "desc": "撸码学员北京校区专注于linux/pythonj教育",
+            "name": "撸码学院北京校区"
+        },
+        "撸码学院广州校区": {
+            "address": "广州",
+            "desc": "撸码学院广州校区xxxxxxxxxxxxxxxxxx",
+            "name": "撸码学院广州校区"
+        },
+        "撸码学院深圳校区": {
+            "address": "深圳",
+            "desc": "撸码学院深圳校区xxxxxxxxxxxxxxxx",
+            "name": "撸码学院深圳校区"
+        }
+    },
+    "student": {
+        "18826270172": {
+            "belong_to_classes": "linux云计算_1班",
+            "belong_to_course": "linux云计算",
+            "belong_to_school": "撸码学院北京校区",
+            "student_ID": "18826270172",
+            "student_age": "24",
+            "student_grade": 0,
+            "student_money": 10000,
+            "student_name": "学员1号",
+            "student_sex": "男",
+            "tuition_status": null
+        },
+        "18826270173": {
+            "belong_to_classes": "python自动化开发_1班",
+            "belong_to_course": "python自动化开发",
+            "belong_to_school": "撸码学院北京校区",
+            "student_ID": "18826270173",
+            "student_age": "22",
+            "student_grade": 0,
+            "student_money": 10000,
+            "student_name": "学员2号",
+            "student_sex": "女",
+            "tuition_status": null
+        },
+        "18826270174": {
+            "belong_to_classes": "go语言开发_1班",
+            "belong_to_course": "go语言开发",
+            "belong_to_school": "撸码学院上海校区",
+            "student_ID": "18826270174",
+            "student_age": "24",
+            "student_grade": 0,
+            "student_money": 10000,
+            "student_name": "学员3号",
+            "student_sex": "男",
+            "tuition_status": null
+        }
+    },
+    "teacher": {
+        "讲师1号": {
+            "belong_to_school": "撸码学院北京校区",
+            "teacher_ID": "100001",
+            "teacher_age": "15",
+            "teacher_major": "linux云计算",
+            "teacher_name": "讲师1号",
+            "teacher_salary": "10000",
+            "teacher_sex": "男"
+        },
+        "讲师2号": {
+            "belong_to_school": "撸码学院北京校区",
+            "teacher_ID": "100002",
+            "teacher_age": "25",
+            "teacher_major": "python自动化开发",
+            "teacher_name": "讲师2号",
+            "teacher_salary": "20000",
+            "teacher_sex": "男"
+        },
+        "讲师3号": {
+            "belong_to_school": "撸码学院上海校区",
+            "teacher_ID": "100003",
+            "teacher_age": "24",
+            "teacher_major": "go语言开发",
+            "teacher_name": "讲师3号",
+            "teacher_salary": "30000",
+            "teacher_sex": "女"
+        }
+    }
+}
